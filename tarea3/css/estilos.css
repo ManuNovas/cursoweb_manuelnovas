@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  margin-top: -20px;
+  height: 100%;
+  padding: 0;
+  background: #e57373;
+  font-family: Arial, Verdana;
+}
+h1{
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+.tituloPrincipal{
+  background: #b71c1c;
+}
+.menuNavegacion{
+  text-align: center;
+}
+.menuNavegacion ul{
+  margin: 10px;
+  padding: 10px;
+}
+.menuNavegacion li{
+  display: inline; /*forma de vista*/
+}
+.menuNavegacion a{
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  background: #d32f2f;
+  color: #FFF;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: #d50000;
+}
+/*hover sirve para cambiar elementos cuando el mouse
+ pase por encima del elemento*/
+.menuNavegacion li:hover a,
+.menuNavegacion li.active a{
+  color: #000;
+  background: #42a5f5;
+  border-color: #2962ff;
+}
+.contenedor{
+  text-align: center;
+  margin: 50px;
+  border: 2px solid #d50000;
+  border-radius: 10px;
+  background: #ffcdd2;
+  font-size: 20px;
+}
+.circulo{
+  border-radius: 50%;
+}
+.rosa{
+  color: #f50057;
+}
+.justificado{
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  list-style: upper-roman;
+}
+.contenedor_imagen{
+  border-radius: 10px;
+}
+a{
+  color: #00bcd4;
+}
