@@ -1,0 +1,87 @@
+body{
+  background: #fff3e0;
+  margin: 0;
+  font-family: Arial;
+}
+
+.barraPrincipal{
+  background: #f57c00;
+  padding-bottom: 10px;
+  color: #000;
+} 
+.barraPrincipal img{
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.barraPrincipal h1{
+  margin: 0;
+  display: inline;
+  padding-left: 10px;
+  font-style: italic;
+}
+.barraPrincipal ul{
+  display: inline;
+  list-style: none;
+  margin: 0;
+}
+.barraPrincipal ul li{
+  display: inline;
+}
+.barraPrincipal ul li a{
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+  padding: 10px;
+  color: #000;
+  border: 3px solid #ff6d00;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.barraPrincipal ul li:hover a,
+.barraPrincipal ul li a.activo{
+  background: #ffb74d;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.circulo{
+  border-radius: 50%;
+}
+
+.cabecera{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  border-bottom: 1px solid #ff6d00;
+  padding-bottom: 10px;
+}
+.cabecera a{
+  color: #0091ea;
+}
+
+.elemento{
+  display: inline-table;
+  width: 30%;
+  margin: 1%;
+  border: 3px solid #ff6d00;
+  border-radius: 15px;
+  background: #ffb74d;
+  text-align: center;
+}
+.elemento img{
+  width: 75%;
+  border-radius: 15px;
+}
+.elemento p{
+  text-align: justify;
+  padding: 5px;
+}
+
+.banner{
+  border-radius: 15px;
+  width: 50%;
+}
