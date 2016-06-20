@@ -85,3 +85,16 @@ body{
   border-radius: 15px;
   width: 50%;
 }
+
+.boton{
+  text-decoration: none;
+  color: #FFF;
+  margin-top: 10px;
+  padding: 3px;
+  border-bottom: 2px solid #ff6d00;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+.boton:hover{
+  background: #ffb74d;
+}
