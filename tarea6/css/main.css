@@ -1,0 +1,11 @@
+body{
+	font-family: Arial;
+}
+.contenedorPrincipal{
+	width: 75%;
+	display: center;
+}
+.titulo{
+	background.color: #4caf50;
+	text.align: center;
+}
