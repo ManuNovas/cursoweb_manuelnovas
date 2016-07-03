@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservaciones</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="page-header">
+      <h1>Reservación</h1>
+    </div>
+    <div class="form-group">
+      <label>Número de mesa:</label>
+      <div class="number"><input type="number" min=1 max="20" id="numeroMesa"></div>
+    </div>
+    <div class="form-group">
+      <label>Número de personas:</label>
+      <div class="number"><input type="number" min=1 max="6" id="numeroPersonas"></div>
+    </div>
+    <div class="form-group">
+      <label>Platillos del menú de hoy:</label>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">
+            <div name="platillos">
+              Tlayudas con chapulines y guacamole
+            </div>
+            $ 40.00 MXN
+            <div class="number"><input type="number" min=0 name="cantidadPlatillos"></div>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">
+            <div name="platillos">
+              Tostadas de guajolote con guacamole de gusano rojo de maguey
+            </div>
+            $ 50.00 MXN
+            <div class="number"><input type="number" min=0 name="cantidadPlatillos"></div>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">
+            <div name="platillos">
+              Pipián de chaya
+            </div>
+            $ 60.00 MXN
+            <div class="number"><input type="number" min=0 name="cantidadPlatillos"></div>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">
+            <div name="platillos">
+              Tamal asado de conejo con quintillones
+            </div>
+            $ 30.00 MXN
+            <div class="number"><input type="number" min=0 name="cantidadPlatillos"></div>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox">
+            <div name="platillos">
+              Chapulines con chocolate
+            </div>
+            $ 20.00 MXN
+            <div class="number"><input type="number" min=0 name="cantidadPlatillos"></div>
+          </label>
+        </div>
+    </div>
+    <div class="button"><button type="submit" class="btn" id="hacerReservacion">Hacer reservación</button></div>
+    <div class="resumen">
+      <hr>
+      <h2>Resumen de la órden</h2>
+      <dl class="dl-horizontal">
+        <dt>ORDEN DE LA MESA:</dt>
+        <dd id="resumenMesa"></dd>
+      </dl>
+      <dl class="dl-horizontal">
+        <dt>PERSONAS:</dt>
+        <dd id="resumenPersonas"></dd>
+      </dl>
+      <dl class="dl-horizontal">
+        <dt>PLATILLOS:</dt>
+        <dd><ul id="listaPlatillos"></ul></dd>
+      </dl>
+      <dl class="dl-horizontal">
+        <dt>NOTAS:</dt>
+        <dd id="notas"></dd>
+      </dl>
+      <dl class="dl-horizontal">
+        <dt>TOTAL:</dt>
+        <dd id="total"></dd>
+      </dl>
+      <div class="button">
+        <button type="submit" class="btn" id="confirmarReservacion">Confirmar Reservacion</button>
+        <button type="submit" class="btn" id="cancelarReservacion">Cancelar reservacion</button>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <p>Manuel Novas 2016</p>
+      <p>Platillos obtenidos del siguiente <a href="http://aztekina.blogspot.mx/">link</a>.</p>
+    </footer>
+    <script 
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

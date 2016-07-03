@@ -1,0 +1,46 @@
+body{
+  background-color: #e8f5e9;
+}
+form, footer{
+  padding: 10px;
+}
+.page-header{
+  background-color: #4caf50;
+  margin-top: 0px;
+  padding-top: 9px;
+  border-bottom: 1px solid #00c853;
+}
+.page-header h1{
+  margin: 0px;
+  text-align: center;
+}
+.button{
+  text-align: center;
+}
+.btn{
+  background-color: #43a047;
+  color: #FFF;
+  border-color: #00c853;
+}
+.btn:hover{
+  background-color: #1b5e20;
+  color: #FFF;
+}
+.btn:focus{
+  background-color: #1b5e20;
+  color: #FFF;
+}
+.resumen{
+  display: none;
+  padding: 10px;
+}
+.resumen h2{
+  text-align: center;
+}
+hr{
+  background-color: #b9f6ca;
+  height: 1px;
+}
+#listaPlatillos{
+  list-style: none;
+}
