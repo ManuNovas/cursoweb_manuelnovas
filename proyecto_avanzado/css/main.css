@@ -1,0 +1,40 @@
+body{
+  background-color: #fffde7;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map{
+  height: 100%;
+}
+
+.nav-wrapper{
+  background-color: #9c27b0;
+  color: #FFF;
+}
+
+.input-field input[type=text]:focus + label{
+  color: #2196f3;
+}
+
+.input-field input[type=text]:focus{
+ border-bottom: 1px solid #2196f3;
+ box-shadow: 0 1px 0 0 #2196f3;
+}
+
+.input-field .prefix.active {
+ color: #2196f3;
+}
+
+.btn{
+  margin-top: 3%;
+  background-color: #2196f3;
+}
+
+.btn:hover{
+  background-color: #1976d2;
+}
